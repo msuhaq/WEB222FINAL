@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Sami Ul Haq</title>
+    <link rel="stylesheet" href="css/normalize.css"/> -->
+	<!-- <link rel="stylesheet" href="css/lab3-theme.css"/> -->
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="chrome://resources/css/roboto.css">
+    
+
+    
+
+</head>
+<body>
+      <!-- Navigationbar -->
+      <header>
+  
+        <a href="#" class="logo">WEB222</a>
+        
+        <input type="checkbox" id="menu-bar" />
+        <label for="menu-bar"><i class="fas fa-bars"></i></label>
+        <nav class="navigation">
+            <ul>
+                <li><a href="./honesty.html" class="active">Honesty</a></li>
+                <li><a href="./info.html">Info</a></li>
+                <li><a href="./reflection.html">Reflection</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+<div class="main_form_container">
+    
+    
+
+    <div class="container">
+        <form id="form" class="form">
+            <h2>User Info</h2>
+            <div class="form-control">
+                <label for="uname">Fisrt Name</label>
+                <input type="text"  id="uname" placeholder="Enter Fisrtname">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="uname">Last Name</label>
+                <input type="text" id="ulastname" placeholder="Enter Lastname">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="Enter email">
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="pass">Password</label>
+                <input type="pass" id="pass" placeholder="Enter pass">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="pass2">Confirm pass</label>
+                <input type="pass" id="pass2" placeholder="Enter pass again">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="age">Age</label>
+                <input type="number" id="age" placeholder="Enter age">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control_input">
+    
+    
+                Graduated <input type="radio" id="graduated1" name="age" >
+                Not Graduated <input type="radio" id="graduated2" name="age" > 
+             
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+    </div>
+
+
+    <input type="hidden" name="lastName" id="lastName" value="Muhammad Sami Ul Haq" />
+<input type="hidden" name="studentId" id="studentId" value="154681191" />
+
+    
+  <!-- alert -->
+  <div class="pv" id="pv">
+    <form action="https://httpbin.org/post" method="POST">
+  <div class="pop">
+
+    <div class="details">
+      <h2 id="pop_h">SuccessFully validated<br></h2>
+         <button type="submit" id="validate">ok</button>
+
+         
+        </div>
+  </div>
+</form>
+</div>
+
+
+
+  
+
+  <footer>
+    <div class="center">
+        &copy; 2021 Muhammad Sami Ul Haq    &nbsp;&nbsp;  CPA Student
+    </div>
+    <div class="git">
+        <a href="https://github.com/msuhaq/WEB222FINAL">My Github page </a>
+    </div>
+  </footer>
+
+
+    <script src="./info.js"></script>
+</body>
+</html>
